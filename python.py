@@ -1,0 +1,20 @@
+# Дописать нереализованные, но созданые функции, обработать возможные ошибки
+# Написать юнит тесты для всех функций для разных сценариев их использования
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
+
+    # Добавить умножение
+    def multiply(self, a, b):
+        return NotImplementedError("Multiply not implemented yet!")
+
+    # Добавить деление
+    def divide(self, a, b):
+        raise NotImplementedError("Divide not implemented yet!")
+
+    # Добавить возведение в степень
+    def power(self, a, b):
+        raise NotImplementedError("Power not implemented yet!")
