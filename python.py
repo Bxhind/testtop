@@ -4,7 +4,7 @@ class Calculator:
     def add(self, a, b):
         return a + b
 
-    def subtract(self, a, b):
+    def substract(self, a, b):
         return a - b
 
     # Добавить умножение
@@ -13,8 +13,8 @@ class Calculator:
 
     # Добавить деление
     def divide(self, a, b):
-        raise a / b
+        return a / b
 
     # Добавить возведение в степень
     def power(self, a, b):
-        raise a ** b
+        return a ** b
