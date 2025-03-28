@@ -9,12 +9,12 @@ class Calculator:
 
     # Добавить умножение
     def multiply(self, a, b):
-        return NotImplementedError("Multiply not implemented yet!")
+        return a * b
 
     # Добавить деление
     def divide(self, a, b):
-        raise NotImplementedError("Divide not implemented yet!")
+        raise a / b
 
     # Добавить возведение в степень
     def power(self, a, b):
-        raise NotImplementedError("Power not implemented yet!")
+        raise a ** b
